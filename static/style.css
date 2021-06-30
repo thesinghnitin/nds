@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap');
+
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+  
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    width: 20%;
+
+}
+#logo img{
+    width: 10%;
+    height: 100%;
+    filter: invert(1)
+}
+
+
+
+#navbar{
+    background-color: red;
+    padding: 15px 14px;
+    font-family: 'Lacquer';
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 60px;
+    color: white;
+    font-size: 1.3rem;
+}
+
+#navbar li a:hover{
+
+    color: black;
+
+}
+
+#introSection{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  padding-left:25px;
+  font-family: 'Pangolin', cursive;
+  font-size: 55px;
+  font-weight: bolder;
+  padding-top: 150px;
+    background: url("/static/bg.jpg") no-repeat center center / cover;
+    height:700px;
+
+}
+
+#introSection div.small{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+#mission{
+   height:500px;
+   width:100%;
+   margin: auto;
+/* background-color: black; */
+/* color: white; */
+background: url(static/bg5.jpg) no-repeat center center ;
+background-size: 1350px 500px
+/* background-size: 400px 600px; */
+/* background-color: lightcoral; */
+}
+
+#mission h2 {
+    text-align: center;
+    padding-top: 25px;
+    font-family:  cursive;
+    font-size: 36px;
+    color: red;
+
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 320px;
+    margin: 100px 64px;
+    height: 240px;
+}
+/* 
+.card :hover{
+    display: inline-block; 
+    border: 2px solid red;
+     border-radius: 10px;
+    width: 320px;
+    margin: 30px 64px;
+    height: 200px;
+} */
+
+.card h3{
+    text-align: end;
+    margin: 12px;
+    color: wheat;
+    font-style: italic;
+    font-size: 25px;
+}
+
+#sponsorSection{
+    height:450px;
+background-image: url(static/sp7.jpg) ;
+
+background-size: 1350px 450px;
+
+color: white;
+}
+
+#sponsorSection h2 {
+    text-align: right;
+    padding-top: 25px;
+    font-family:  cursive;
+    font-size: 36px;
+    padding-right: 236px;
+}
+
+
+#hip{
+   background:  url("static/hip-hop.jpg") no-repeat center center ;
+   background-size:320px 240px;
+}
+
+ #hip:hover{
+    background:  url("static/hip-hop.jpg");
+    background-size:385px 300px;
+    border: 5px solid red; }
+
+    #class:hover{
+        background:  url("static/class2.jpg") ;
+        background-size:385px 300px;
+        border: 5px solid red; }
+
+        #bach:hover{
+            background:  url("static/bac1.jpg")  ;
+            background-size:385px 300px;
+            border: 5px solid red; }
+ 
+
+#class{
+    background:  url("static/class2.jpg") no-repeat center center ;
+    background-size:320px 240px
+ }
+ 
+#bach{
+    background:  url("static/bac1.jpg") no-repeat center center ;
+    background-size:320px 240px
+ }
+
+ #sponsers{
+     height:175px;
+     max-width: 1000px;
+     margin: auto;
+     margin: 4px 244px;
+     margin-left: 293px;
+ }
+
+ .spImage{
+     /* height:88%;
+     margin: 20px; */
+
+     height: 90%;
+    margin: 0px;
+    margin-top: 150px;
+    margin-left: 0px;
+ }
+
+ #footer{
+     color:white;
+    height:60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+
+}

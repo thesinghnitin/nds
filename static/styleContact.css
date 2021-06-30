@@ -1,0 +1,50 @@
+
+
+
+.myInput{
+    /* display: block; */
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    border: 2px solid red;
+    border-radius: 12px;
+    outline: none;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.btn{
+    padding: 8px 16px;
+    font-size: 18px;
+    border: 2px solid blue;
+    border-radius: 15px;
+    color: white;
+    background: red;
+    outline: none;
+}
+
+.container{
+    min-height: 82vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-top: 12px; */
+    background: url(static/bg6.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.container h1{
+    text-align: center;
+    margin: 12px 0;
+    font-family: 'Kirang Haerang' ;
+    font-size: 50px;
+    color: white
+}

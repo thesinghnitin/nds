@@ -1,0 +1,36 @@
+extends base.pug
+
+block scripts  
+ script(src="/static/index.js") 
+
+block style 
+ style 
+     include ../static/style.css 
+
+block content 
+
+   
+   section#introSection 
+     div  Live to Dance with Nitin 
+     div.small  Eat Sleep Dance Repeat...
+
+   section#mission
+     h2 Courses Offered
+
+     div.card#hip
+      h3 Hip Hop
+     div.card#class
+      h3 Classical
+     div.card#bach
+      h3 Bachata
+      
+   section#sponsorSection 
+     h2 Celebs that have trained with Us
+     div#sponsers
+      img(src="static/raghav.jpg", class= "spImage" )
+      img(src="static/shakti.jpg", class= "spImage" )
+      img(src="static/sonali4.jpg", class= "spImage" )
+      img(src="static/dar.png", class= "spImage" )
+      
+    
+      
